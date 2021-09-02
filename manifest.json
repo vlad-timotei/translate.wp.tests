@@ -1,0 +1,19 @@
+{
+	"name": "WPORG Translate Tests",
+	"description": "Opens all kinds of pages on translate.w.org",
+	"version": "0.1",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"js": [
+				"tests.js"
+			],
+			"matches": [
+				"https://translate.wordpress.org/*"
+			]
+		}
+	],
+	"permissions": [
+		"tabs"
+	]
+}
